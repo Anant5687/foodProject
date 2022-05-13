@@ -3,6 +3,8 @@
     width:35%;
     height:20%;
     margin-bottom: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 .img{
@@ -29,4 +31,8 @@
     color: white;
     height:5vh;
     width: 10vw;
+}
+
+.main{
+    display:grid
 }

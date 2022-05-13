@@ -1,17 +1,20 @@
 import React from 'react'
-import Checkout from '../components/CheckOut/Checkout'
 import Navbar from '../components/Navbar/Navbar'
 import Chappati from "../components/Varities/Chappati/Chappati"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NewCard from '../components/CheckOut/NewCard';
 
 
 const Thali = () => {
   return (
-    <>
-     
-     <Navbar />
-     <Chappati/>
-      <Checkout/>
-     
+    <> <Router>
+      <Navbar />
+      
+        <Routes>
+        <Route path="/" element={<Chappati/>} />
+        <Route path="/card" element={<NewCard/>} />
+        </Routes>
+      </Router>
     </>
   )
 }

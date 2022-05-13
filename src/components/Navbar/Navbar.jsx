@@ -14,9 +14,14 @@ const Navbar = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontSize: "34px" }}>
             PetPooja
           </Typography>
-          <Button color="inherit" sx={{ fontSize: "22px" }}>
+          <Button color="inherit" sx={{ fontSize: "22px", marginRight:"65%" }}>
             <Link to="/" style={{textDecoration:"none", color:"White"}}>
-              Cart
+              Items
+            </Link>
+          </Button>
+          <Button color="inherit" sx={{ fontSize: "22px" }}>
+            <Link to="/card" style={{textDecoration:"none", color:"White"}}>
+              cards
             </Link>
           </Button>
         </Toolbar>

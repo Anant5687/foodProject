@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit"; 
-import valueSlicer from "../counterSlice/valueSlice";
+import chappatiSlice from "../counterSlice/chappatiSlice";
+import orderSlice from "../counterSlice/orderSlice";
 
 export const Store = configureStore({
 reducer:{
-    value:valueSlicer
+    chappati:chappatiSlice,
+    order:orderSlice,
 }
 })
