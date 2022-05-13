@@ -1,0 +1,32 @@
+.card{
+    border:1px solid black;
+    width:35%;
+    height:20%;
+    margin-bottom: 5%;
+}
+
+.img{
+    margin-left: 1%;
+}
+
+.button{
+    margin-left: 6%;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.button2{
+    margin-left: 3%;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.value{
+    /* border:1px solid black; */
+    justify-self: center;
+    margin-left: 3%;
+}
+.Remove_cart{
+    background-color: red;
+    color: white;
+    height:5vh;
+    width: 10vw;
+}
