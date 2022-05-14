@@ -16,9 +16,9 @@ const NewCard = () => {
     <div>
 
       <h1 align="center">Your plate is here....</h1>
-      {orderedItem.map((ele) => {
+      {orderedItem.map((ele, i) => {
         return (
-          <Card ele={ele} />
+          <Card ele={ele} index={i}/>
         )
       })}
       <h3 style={{ marginLeft: "75%" }}> Total price :- </h3>
